@@ -63,8 +63,8 @@ class HomePage extends StatelessWidget{
                             Navigator.pushNamed(context, "/misComidas");
                           },
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("MIS COMIDAS",
                                   textAlign: TextAlign.center),
@@ -73,7 +73,7 @@ class HomePage extends StatelessWidget{
                         ),
                       )
                     ],
-                  ),
+                ),
                   Column(
                     children: <Widget>[
                       Padding(
@@ -85,8 +85,8 @@ class HomePage extends StatelessWidget{
                           ),
                           onPressed: (){},
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("COMIDAS PÚBLICAS",
                                 textAlign: TextAlign.center,
@@ -99,64 +99,10 @@ class HomePage extends StatelessWidget{
                         ),
                       )
                     ],
-                  ),
+                   ),
                 ],
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  Column(
-                    children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.all(10),
-                        child: RaisedButton(
-                          color: Colors.lightBlue,
-                          shape: new RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(10)
-                          ),
-                          onPressed: (){
-                            Navigator.pushNamed(context, "/misComidas");
-                          },
-                          child: SizedBox(
-                            width: 150,
-                            height: 100,
-                            child: Center(
-                              child: Text("MIS COMIDAS",
-                                  textAlign: TextAlign.center),
-                            ),
-                          ),
-                        ),
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.all(10),
-                        child: RaisedButton(
-                          color: Colors.blueGrey,
-                          shape: new RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(10)
-                          ),
-                          onPressed: (){},
-                          child: SizedBox(
-                            width: 150,
-                            height: 100,
-                            child: Center(
-                              child: Text("COMIDAS PÚBLICAS",
-                                  textAlign: TextAlign.center,
-                                style: TextStyle(
-                                    color: Colors.white,
-                                  fontWeight: FontWeight.bold
-                                ),),
-                            ),
-                          ),
-                        ),
-                      )
-                    ],
-                  ),
-                ],
-              ),
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
@@ -171,8 +117,8 @@ class HomePage extends StatelessWidget{
                           ),
                           onPressed: (){},
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("MIS DIETAS",
                                   textAlign: TextAlign.center),
@@ -193,8 +139,8 @@ class HomePage extends StatelessWidget{
                           ),
                           onPressed: (){},
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("DIETAS PÚBLICAS",
                                   textAlign: TextAlign.center,
@@ -224,8 +170,8 @@ class HomePage extends StatelessWidget{
                           ),
                           onPressed: (){},
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("MIS ENTRENAMIENTOS",
                                   textAlign: TextAlign.center),
@@ -246,8 +192,8 @@ class HomePage extends StatelessWidget{
                           ),
                           onPressed: (){},
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("ENTRENAMIENTOS PÚBLICOS",
                                   textAlign: TextAlign.center,
@@ -277,8 +223,8 @@ class HomePage extends StatelessWidget{
                           ),
                           onPressed: (){},
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("MI ARMARIO",
                                   textAlign: TextAlign.center),
@@ -299,8 +245,8 @@ class HomePage extends StatelessWidget{
                           ),
                           onPressed: (){},
                           child: SizedBox(
-                            width: 150,
-                            height: 100,
+                            width: 100,
+                            height: 70,
                             child: Center(
                               child: Text("ROPA PÚBLICA",
                                   textAlign: TextAlign.center,
